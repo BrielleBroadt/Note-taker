@@ -1,0 +1,19 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Helping canidates create notes that they need to save. Java scirpt was utilized for a number of functions within the code. Express was also utlized, app.use was utilized as middleware for parsing to json. Routes were creatd to get from home page to notes page.",
+  "main": "fsUtils.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+  
+}

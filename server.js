@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const api = require("./routes/index");
+const api = require("./routes/index.js");
 
 // Assign PORT variable for heroku port otherwise run on 3001
 const PORT = process.env.PORT || 3001;
